@@ -1,0 +1,81 @@
+{
+  "version": "0.1.0",
+  "manual": {
+    "edicion": "2026",
+    "categorias": ["B1", "MOTO"]
+  },
+  "examen": {
+    "totalPreguntas": 40,
+    "notaMinima": 70,
+    "duracionMinutos": 50
+  },
+  "repaso": {
+    "cajas": 5,
+    "intervalosDias": [0, 1, 3, 7, 16]
+  },
+  "capitulos": {
+    "B1": [
+      { "id": "b1-senales", "titulo": "Señales de tránsito", "porConfirmar": true },
+      { "id": "b1-normas", "titulo": "Normas de circulación", "porConfirmar": true }
+    ],
+    "MOTO": [
+      { "id": "moto-equipo", "titulo": "Equipo de seguridad", "porConfirmar": true },
+      { "id": "moto-normas", "titulo": "Normas específicas de motociclistas", "porConfirmar": true }
+    ]
+  },
+  "preguntas": [
+    {
+      "id": "q-0001",
+      "categoria": "B1",
+      "capitulo": "b1-senales",
+      "texto": "¿Qué indica una señal triangular con borde rojo y fondo blanco?",
+      "imagen": "senales/triangular_advertencia.svg",
+      "opciones": [
+        "Una prohibición que debe respetarse de inmediato",
+        "Una advertencia sobre un peligro adelante",
+        "Una indicación de servicio, como un hospital cercano",
+        "El fin de una zona de restricción"
+      ],
+      "respuestaIndice": 1,
+      "explicacion": "Las señales triangulares de borde rojo son preventivas: alertan sobre un peligro en la vía para que el conductor ajuste su comportamiento antes de llegar al punto señalado.",
+      "referencia": "Manual B1 2026, capítulo de señalización preventiva",
+      "dificultad": 1,
+      "activa": true
+    },
+    {
+      "id": "q-0002",
+      "categoria": "B1",
+      "capitulo": "b1-normas",
+      "texto": "En una intersección sin semáforo ni señales, ¿quién tiene el derecho de vía?",
+      "imagen": null,
+      "opciones": [
+        "El vehículo que llega por la derecha",
+        "El vehículo más grande",
+        "El que toca primero la bocina"
+      ],
+      "respuestaIndice": 0,
+      "explicacion": "A falta de señalización, la regla general es ceder el paso al vehículo que se aproxima por la derecha.",
+      "referencia": "Manual B1 2026, capítulo de normas de circulación",
+      "dificultad": 2,
+      "activa": true
+    },
+    {
+      "id": "q-0003",
+      "categoria": "MOTO",
+      "capitulo": "moto-equipo",
+      "texto": "¿Cuál es el equipo de seguridad obligatorio para conducir una motocicleta?",
+      "imagen": null,
+      "opciones": [
+        "Casco certificado, siempre abrochado",
+        "Casco solo en carretera, no en zonas urbanas",
+        "Casco opcional si se circula a baja velocidad",
+        "Lentes oscuros en lugar de casco"
+      ],
+      "respuestaIndice": 0,
+      "explicacion": "El uso de casco certificado y correctamente abrochado es obligatorio en todo momento para el conductor y los pasajeros de una motocicleta.",
+      "referencia": "Manual Moto 2026, capítulo de equipo de seguridad",
+      "dificultad": 1,
+      "activa": true
+    }
+  ]
+}
