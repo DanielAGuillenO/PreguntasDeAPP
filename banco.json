@@ -1,5 +1,5 @@
 {
-  "version": "0.1.1",
+  "version": "0.1.2",
   "manual": {
     "edicion": "2026",
     "categorias": ["B1", "MOTO"]
@@ -113,5 +113,13 @@
       "dificultad": 2,
       "activa": true
     }
+  ],
+  "consejos": [
+    { "id": "c-0001", "texto": "Repasá un poco todos los días en vez de todo de una vez: la memoria retiene mejor con repetición espaciada." },
+    { "id": "c-0002", "texto": "Antes de cambiar de carril, revisá los espejos y el punto ciego, no solo el espejo retrovisor." },
+    { "id": "c-0003", "texto": "Si una pregunta te cuesta, leé la explicación completa: entender el porqué ayuda más que memorizar la respuesta." },
+    { "id": "c-0004", "texto": "En el simulacro no hay retroalimentación hasta el final, así que practicá primero para acostumbrarte al ritmo real del examen." },
+    { "id": "c-0005", "texto": "Mantené siempre una distancia de seguimiento segura, sin importar el tipo de vehículo que conduzcas." },
+    { "id": "c-0006", "texto": "Repasar las preguntas que fallaste vale más que repetir las que ya dominás: por eso existe la cola de repaso." }
   ]
 }
