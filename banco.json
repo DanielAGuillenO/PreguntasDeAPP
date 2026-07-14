@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "manual": {
     "edicion": "2026",
     "categorias": ["B1", "MOTO"]
@@ -75,6 +75,42 @@
       "explicacion": "El uso de casco certificado y correctamente abrochado es obligatorio en todo momento para el conductor y los pasajeros de una motocicleta.",
       "referencia": "Manual Moto 2026, capítulo de equipo de seguridad",
       "dificultad": 1,
+      "activa": true
+    },
+    {
+      "id": "q-0004",
+      "categoria": "B1",
+      "capitulo": "b1-senales",
+      "texto": "¿Qué significa una línea continua amarilla en el centro de la vía?",
+      "imagen": null,
+      "opciones": [
+        "Prohibido adelantar en ambos sentidos",
+        "Permite adelantar solo de noche",
+        "Indica el borde de la vía",
+        "Solo aplica para vehículos pesados"
+      ],
+      "respuestaIndice": 0,
+      "explicacion": "La línea amarilla continua indica que el adelantamiento está prohibido en ambos sentidos, porque la visibilidad o el trazado de la vía no lo permiten con seguridad.",
+      "referencia": "Manual B1 2026, capítulo de señales de tránsito",
+      "dificultad": 2,
+      "activa": true
+    },
+    {
+      "id": "q-0005",
+      "categoria": "MOTO",
+      "capitulo": "moto-normas",
+      "texto": "Al circular en motocicleta, ¿cuál es la distancia de seguimiento recomendada respecto al vehículo de adelante?",
+      "imagen": null,
+      "opciones": [
+        "La misma que para cualquier otro vehículo: al menos 3 segundos",
+        "Ninguna, las motos pueden ir más cerca por ser más pequeñas",
+        "Solo importa en carretera, no dentro de la ciudad",
+        "Un metro fijo sin importar la velocidad"
+      ],
+      "respuestaIndice": 0,
+      "explicacion": "Los motociclistas deben mantener al menos la misma distancia de seguimiento que cualquier otro vehículo (regla de los 3 segundos); el menor tamaño de la moto no elimina la necesidad de espacio para reaccionar.",
+      "referencia": "Manual Moto 2026, capítulo de normas específicas de motociclistas",
+      "dificultad": 2,
       "activa": true
     }
   ]
